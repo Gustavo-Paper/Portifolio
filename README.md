@@ -1,6 +1,6 @@
 # React + Vite
 
-vite: https://portifolio-rose-eta.vercel.app/
+Visit: https://portifolio-rose-eta.vercel.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
