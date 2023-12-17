@@ -3,18 +3,17 @@ import * as P from "../Style/projetosStylo.jsx";
 import fantastika from "../assets/fantastika.png"
 import disney from "../assets/disney.png"
 import selfcare from "../assets/selfcare.png"
-import coffer from "../assets/coffer.png"
 import { Img } from "../Style/projetosStylo.jsx"
-import { H1 } from "../Style/projetosStylo.jsx"
 import { Figure } from "../Style/projetosStylo.jsx"
 import { DivTitulos } from "../Style/projetosStylo.jsx";
+import { sectionProjeto } from "../Style/projetosStylo.jsx";
 
 function Projetos() {
     return (
-        <section>
-            <H1>PROJETOS</H1>
-            <section>
-                <Figure>
+        <P.sectionProjeto>
+            
+            <P.sectionProjeto>
+                <P.Figure>
                     <a href="https://desafio-fantastika.vercel.app/" target="_blank">
                         <Img src={fantastika} alt="Site Fantastika" />
                     </a>
@@ -26,9 +25,9 @@ function Projetos() {
                     <a href="https://dev-selfcare.vercel.app/" target="_blank">
                         <Img src={selfcare} alt="" />
                     </a>
-                </Figure>
+                </P.Figure>
 
-                <DivTitulos>
+                <P.DivTitulos>
                     <h2>Fantastika</h2>
                     <h4>HTML, CSS</h4>
 
@@ -37,13 +36,13 @@ function Projetos() {
 
                     <h2>Selfcare</h2>
                     <h4>HTML, CSS</h4>
-                </DivTitulos>
+                </P.DivTitulos>
 
                 
                 
 
-            </section>
-        </section>
+            </P.sectionProjeto>
+        </P.sectionProjeto>
 
 
     )

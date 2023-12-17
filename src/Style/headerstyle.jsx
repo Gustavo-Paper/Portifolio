@@ -5,9 +5,15 @@ export const StyleHeader = styled.header`
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 12vh;
+    height: 20vh;
+    width: 100vw;
     background-color: #044476;
     
+    nav {
+        display: flex;
+        align-items: center;
+        
+    }
 
 
 `
@@ -19,9 +25,15 @@ width: 40vw;
 
 background-color: #044476;
 
-@media (max-width:800px){
 
-    width:80vw;
+@media (max-width:800px){
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-evenly;
+    height: 20vh;
+    width:100vw;
+
 }
 
 `
@@ -33,10 +45,9 @@ export const StyleLi = styled.li`
     width:10vw;
     height: 5vh;
 
-a:hover{
+a:hover {
     
-   
-    box-shadow: 0px 0px 10px 8px  rgba(0, 0, 255, 0.6);;
+    text-decoration: underline #247fc4;
 }
 
 a{

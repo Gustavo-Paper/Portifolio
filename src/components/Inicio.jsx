@@ -25,17 +25,17 @@ function Inicio() {
 
             <S.StyleFooter>
                 <S.NavRedes>
-                <a href="https://www.linkedin.com/in/gustavo-almeida-57b2a3280/" target="_blank">
+                <S.asRedes href="https://www.linkedin.com/in/gustavo-almeida-57b2a3280/" target="_blank">
                     <img src={linkedin} alt="logo linkedin" />
-                </a>
+                </S.asRedes>
 
-                <a href="https://github.com/Gustavo-Paper"  target="_blank">
+                <S.asRedes href="https://github.com/Gustavo-Paper"  target="_blank">
                     <img src={github} alt="logo github" />
-                </a>
+                </S.asRedes>
 
-                <a href="https://www.youtube.com/@paperman6211" target="_blank">
+                <S.asRedes href="https://www.youtube.com/@paperman6211" target="_blank">
                     <img src={youtube} alt="logo youtube" />
-                </a>
+                </S.asRedes>
                 </S.NavRedes>
             </S.StyleFooter>
         </>
